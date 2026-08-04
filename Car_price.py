@@ -1,0 +1,5 @@
+user_name=input("what is your name? ")
+company=input("what company? ")
+model=input("what model? ")
+city=input("which city? ")
+print(user_name+" !  "+company  + " " + model + " in " +  city+ " is 1 million rupees")
