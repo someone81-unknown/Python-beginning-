@@ -1,0 +1,5 @@
+user_name=input("what is your name? ")
+prompts=int(input("how many prompts did you you use today? "))
+print("cost per prompt is 2 pennies")
+print("so,")
+print(user_name +"! ,your remaining payment is "+str(prompts*2/100)+" dollars")
