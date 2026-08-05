@@ -1,0 +1,8 @@
+hot_day=False
+cold_day=True
+if hot_day:
+	print("it's a hot day!")
+elif cold_day:
+	print("it's a cold day!")
+else:
+	print("who are you?!")
