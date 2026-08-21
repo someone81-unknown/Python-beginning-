@@ -1,0 +1,23 @@
+weather=input("""how's the weather? 
+1)normal
+2)hot
+3)cold
+""").lower().strip()
+
+mosam=weather.split(" ")
+
+directions={
+"1": "Enjoy",
+"2": "stay inside",
+'3': "wear warm clothes",
+'hot':"stay inside",
+"cold" : "wear warm clothes",
+"normal":"Enjoy"
+}
+
+
+output=""
+
+for x in mosam:
+    output+=directions.get(x,x) + " "
+print (output)
